@@ -1,8 +1,8 @@
 GITHUB_ACCOUNT=talukas
 WS_DIR=Workspace
-REPO_NAME=Title_Validation_CSV
+REPO_NAME=Valid_Title_End2End
 APP_VERSION=1.1
-MAIN_CLASS=core.Validation_CSV
+MAIN_CLASS=A2d
 ARGS_01=
 
 if which java >/dev/null 2>&1 ; then java -version &>jv.txt;grep "java version" jv.txt | awk '{print $1,$3}'; else echo Java not installed; return; fi
